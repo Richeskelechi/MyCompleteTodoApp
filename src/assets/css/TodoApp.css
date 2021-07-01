@@ -1,0 +1,36 @@
+.inputTodo{
+    width: 80%;
+    height: 10vh;
+    margin: 7px auto;
+    background-color: red;
+}
+.inputTodo input{
+    margin: 30px;
+    transform: scale(2.5);
+    background-color: blueviolet;
+}
+.inputTodo span{
+    color: black;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media screen and (max-width: 1000px) {
+    .inputTodo {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .inputTodo {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .inputTodo input{
+        margin: 10px;
+        margin-top: 30px;
+        
+    }
+    .inputTodo span{
+        width: 14%;
+    }
+}

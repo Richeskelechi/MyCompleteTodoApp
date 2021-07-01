@@ -1,0 +1,10 @@
+.caption{
+    width: 60%;
+    height: 10vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin:  auto;
+}
+.caption h2{
+    padding-top: 20px;
+}
